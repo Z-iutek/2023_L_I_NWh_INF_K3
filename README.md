@@ -48,7 +48,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   ...
 
   # aktywacja 
-  $ source .venv/bin/activate
+  $ source .venv/Scripts/activate
   ```
 
 - Integracja z TravisCI:
