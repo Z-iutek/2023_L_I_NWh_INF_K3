@@ -4,10 +4,10 @@ jobs:
     machine:
       image: ubuntu-2004:202104-01
     steps:
-      -checkout
-      -run: makes deps
-      -run: make test
+      - checkout
+      - run: makes deps
+      - run: make test
 workflows:
   basic:
    jobs:
-    -build-and-test    
+    - build - and - test
