@@ -1,7 +1,7 @@
 version:2.1
 
 jobs:
- build-and-test:
+build-and-test:
     machine:
       image: ubuntu-2004:202104-01
     steps:
